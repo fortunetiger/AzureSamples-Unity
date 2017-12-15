@@ -4,7 +4,7 @@ using Microsoft.WindowsAzure.MobileServices;
 
 public static class AzureMobileServiceClient
 {
-    // Use mozroots / cert-syc to update your Unity Mono certificate store!
+    // Be certain to use the http:// endpoint here, not the https:// endpoint.
     private const string backendUrl = "MOBILE_APP_URL";
     private static MobileServiceClient client;
 
@@ -19,7 +19,7 @@ public static class AzureMobileServiceClient
                 var handler = new HttpClientHandler { AutomaticDecompression = DecompressionMethods.Deflate };
                 client = new MobileServiceClient(backendUrl, handler);
 #else
-                Client = new MobileServiceClient(backendUrl);
+                client = new MobileServiceClient(backendUrl);
 #endif
             }
 
