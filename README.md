@@ -6,7 +6,7 @@ If you are looking for experimental Azure SDKs for Unity, please head over to [T
 
 ## MobileAppsRacer
 
-This sample walks through the process of using Easy Tables to save telemetry and leaderboard data in Azure using the experimental [Mobile Apps SDK for Unity](/sandbox/gamedev/unity/azure-mobile-apps-unity).
+This sample walks through the process of using Easy Tables to save telemetry and leaderboard data in Azure using the experimental [Mobile Apps SDK for Unity](https://docs.microsoft.com/sandbox/gamedev/unity/azure-mobile-apps-unity).
 
 * [Article](https://aka.ms/azmobileappsracer)
 * [Mobile Apps SDK](https://aka.ms/azmobile-unitysdk)
