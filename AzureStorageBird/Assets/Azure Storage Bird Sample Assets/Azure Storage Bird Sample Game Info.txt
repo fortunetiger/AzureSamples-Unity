@@ -1,0 +1,11 @@
+This sample game project demonstrates downloading files at runtime from Azure Storage using the Azure Storage SDK for Unity. This is useful for reducing the initial download size of your app. This approach could be adapted for a variety of purposes, such as updating game content without rebuilding and resubmitting the game, or adding new content to a live game.
+
+Because music files typically are among the largest data files in games, the sample game has been designed to leverage several music assets. As the player progresses in the game, the background music changes, providing a good use case for downloading assets at runtime with the Azure Storage SDK.
+
+More info on the Azure Storage SDK for Unity can be found here: https://aka.ms/azstoragegamedev. 
+This SDK requires the .NET 4.6 equivalent scripting runtime version to be selected in Unity's Player Settings.
+
+The music files are from the Metal Mayhem Music Pack (https://assetstore.unity.com/packages/audio/music/metal-mayhem-music-pack-19233) 
+by Unity Technologies, composed by George Dziov.
+
+The game is based on the Unity tutorial "Making a Flappy Bird Style Game" https://unity3d.com/learn/tutorials/topics/2d-game-creation/project-goals?playlist=17093.
