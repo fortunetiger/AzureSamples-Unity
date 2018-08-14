@@ -22,4 +22,4 @@ This sample demonstrates how to incorporate Facebook authentication into a Unity
 
 This sample game project demonstrates downloading files at runtime from Azure Storage using the [Azure Storage SDK for Unity]( https://aka.ms/azstoragegamedev).
 
-* [Article](https://docs.microsoft.com/en-us/sandbox/gamedev/unity/samples/azure-storage-bird)
+* [Article](https://aka.ms/azstoragebird)
