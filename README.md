@@ -17,3 +17,9 @@ This sample walks through the process of using Easy Tables to save telemetry and
 This sample demonstrates how to incorporate Facebook authentication into a Unity project that stores high score and game telemetry data in Azure Easy Tables.
 
 * [Article](https://aka.ms/azfbauthracer)
+
+## Azure Storage Bird
+
+This sample game project demonstrates downloading files at runtime from Azure Storage using the [Azure Storage SDK for Unity]( https://aka.ms/azstoragegamedev).
+
+* [Article](https://aka.ms/azstoragebird)
