@@ -4,7 +4,7 @@ using Microsoft.WindowsAzure.MobileServices;
 
 public static class AzureMobileServiceClient
 {
-    // Be certain to use the http:// endpoint here, not the https:// endpoint.
+    // Unity versions below 2018.2 must use the http:// endpoint here, not the https:// endpoint.
     private const string backendUrl = "MOBILE_APP_URL";
     private static MobileServiceClient client;
 

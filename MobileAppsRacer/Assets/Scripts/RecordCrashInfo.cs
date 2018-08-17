@@ -68,6 +68,7 @@ public class RecordCrashInfo : MonoBehaviour
 
     private void OnRaceFinished()
     {
+        isRaceFinished = true;
         Task.Run(UploadNewCrashDataAsync);
     }
 
